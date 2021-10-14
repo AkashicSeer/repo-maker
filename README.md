@@ -1,5 +1,6 @@
 ﻿# repo-maker
-#RepositoryMaker.php
+
+# RepositoryMaker.php
 
 This maker creates Doctrine Repositories either by letting you name them or by looping. You use this Maker like any other Symfony maker.
 
@@ -9,7 +10,7 @@ This means it gathers a list of your Entities and compares them to a list of exi
 
 If you used the naming version it CAN OVERWRITE your current repositories.
 
-##How to use this
+## How to use this
 
 To use this create a directory named Maker inside your src directory. 
 
