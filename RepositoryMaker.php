@@ -64,7 +64,7 @@ class RepositoryMaker extends AbstractMaker
     {
         $results = false;
         if (empty($this->repositoryExists($repositoryName))) {
-            $repositoryName .= 'Repository';
+
             $repoCode = $this->getRepositoryTemplate();
             $file = $this->_repositoryDir . $repositoryName . '.php';
             $repoText = str_replace('repo_name', $repositoryName, $repoCode);
