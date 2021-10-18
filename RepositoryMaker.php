@@ -228,7 +228,7 @@ TEMPLATE;
 
     private function writeSuccess(ConsoleStyle $io, string $repositoryName)
     {
-        $io->writeln('Success. repository ' . $repositoryName . ' file was created.');
+        $io->writeln('Success. repository ' . $repositoryName . 'Repository.php file was created.');
         $io->writeln(' ');
     }
 }
