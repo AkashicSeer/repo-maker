@@ -42,7 +42,7 @@ class RepositoryMaker extends AbstractMaker
         return 'make:repository';
     }
 
-    public function getCommandDescription(): string
+    public static function getCommandDescription(): string
     {
         return 'Creates a basic Doctrine Repository class.';
     }
